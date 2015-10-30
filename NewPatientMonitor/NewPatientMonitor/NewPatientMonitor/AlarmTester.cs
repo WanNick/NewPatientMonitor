@@ -8,6 +8,7 @@ namespace NewPatientMonitor
 {
     public class AlarmTester
     {
+        
         // The line below gets and sets the lower limit.
         public float LowerLimit
         {
@@ -34,6 +35,10 @@ namespace NewPatientMonitor
             NameOfAlarm = moduleName;
             LowerLimit = initialLowerLimit;
             UpperLimit = initialUpperLimit;
+
+            // throw new NotImplementedException();
+
+
         }
 
         // Checks to see whether the values is outside the limits.
@@ -43,9 +48,13 @@ namespace NewPatientMonitor
         // If value is greater than OR less than value.
         public bool ValueOutsideLimits (float value)
         {
+            // throw new NotImplementedException();
+
             return (false || value > UpperLimit || value < LowerLimit);
         }
+        
 
+        
 
 
     }

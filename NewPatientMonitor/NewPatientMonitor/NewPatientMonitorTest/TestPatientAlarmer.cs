@@ -43,7 +43,7 @@ namespace TestMethodPMS
 
 
 
-            patientAlarmer.breathingrateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
+            // patientAlarmer.breathingrateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
 
             // ACT
 

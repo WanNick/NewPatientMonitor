@@ -59,6 +59,7 @@
     <Compile Include="TestPatientAlarmer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestAlarmTester.cs" />
+    <Compile Include="PatientDataTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NewPatientMonitor\NewPatientMonitor.csproj">
