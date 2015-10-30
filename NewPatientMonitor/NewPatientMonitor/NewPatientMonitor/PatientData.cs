@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NewPatientMonitor
 {
-    public class PatientData
+    public class PatientData : IPatientData
     {
         public float BreathingRate { get; private set; }
         public float DiastolicRate { get; private set; }
