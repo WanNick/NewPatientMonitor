@@ -7,3 +7,12 @@ C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMo
 C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.csprojResolveAssemblyReference.cache
 C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.dll
 C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.pdb
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\NewPatientMonitorTest.dll
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\NewPatientMonitorTest.pdb
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\Moq.dll
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\NewPatientMonitor.exe
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\NewPatientMonitor.pdb
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\Moq.xml
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.csprojResolveAssemblyReference.cache
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.dll
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.pdb

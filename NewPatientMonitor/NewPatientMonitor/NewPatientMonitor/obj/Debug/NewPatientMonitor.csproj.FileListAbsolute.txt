@@ -14,3 +14,17 @@ C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMo
 C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.csproj.GenerateResource.Cache
 C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.exe
 C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.pdb
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\bin\Debug\NewPatientMonitor.exe.config
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\bin\Debug\NewPatientMonitor.exe
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\bin\Debug\NewPatientMonitor.pdb
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.csprojResolveAssemblyReference.cache
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\MainWindow.g.cs
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\App.g.cs
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor_MarkupCompile.cache
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor_MarkupCompile.lref
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\MainWindow.baml
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.g.resources
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.Properties.Resources.resources
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.csproj.GenerateResource.Cache
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.exe
+C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.pdb
