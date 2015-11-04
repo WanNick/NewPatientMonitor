@@ -28,3 +28,31 @@ C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatie
 C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.csproj.GenerateResource.Cache
 C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.exe
 C:\Users\Jack\git\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.pdb
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\bin\Debug\NewPatientMonitor.exe.config
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.exe
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.pdb
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\bin\Debug\NewPatientMonitor.exe
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\bin\Debug\NewPatientMonitor.pdb
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.csprojResolveAssemblyReference.cache
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\MainWindow.g.cs
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\App.g.cs
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor_MarkupCompile.cache
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor_MarkupCompile.lref
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\MainWindow.baml
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.g.resources
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.Properties.Resources.resources
+E:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.csproj.GenerateResource.Cache
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\bin\Debug\NewPatientMonitor.exe.config
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.exe
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.pdb
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\bin\Debug\NewPatientMonitor.exe
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\bin\Debug\NewPatientMonitor.pdb
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.csprojResolveAssemblyReference.cache
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\MainWindow.g.cs
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\App.g.cs
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor_MarkupCompile.cache
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor_MarkupCompile.lref
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\MainWindow.baml
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.g.resources
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.Properties.Resources.resources
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\NewPatientMonitor.csproj.GenerateResource.Cache
