@@ -12,7 +12,7 @@ namespace NewPatientMonitorTest
     public class Module_Tester
     {
         [TestMethod]
-        public void DefaultModuleCreated()
+        public void ModuleCreatedWithDefaultSettings()
         {
             Module testModule = new Module();
 
@@ -21,6 +21,29 @@ namespace NewPatientMonitorTest
             Assert.AreEqual(testModule.UpperLimit, NewPatientMonitor.DefaultSettings.UPPER_DEFAULT_VALUE);
 
             // This is a test comment.
+        }
+
+        [TestMethod]
+        public void ModuleCreatedWithSetName()
+        {
+            string testName = "This is a test name";
+            Module testModule = new Module(testName);
+
+            Assert.AreEqual(testModule.Name, testName);
+        }
+
+        [TestMethod]
+        public void ModuleCreatedWithSetNameAndValues()
+        {
+            string testName = "This is another test name";
+            float upperLimit = 20f;
+            float lowerLimit = 2f;
+
+            Module testModule = new Module(testName, lowerLimit, upperLimit);
+
+            Assert.AreEqual(testModule.Name, testName);
+            Assert.AreEqual(testModule.UpperLimit, upperLimit);
+            Assert.AreEqual(testModule.LowerLimit, lowerLimit);
         }
     }
 }

@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\
+=======
 C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\obj\Debug\
+>>>>>>> upstream/master
 NewPatientMonitor
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
+F:\University\Software Engineering\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\App.xaml
+=======
 C:\Users\nickw\Documents\GitHub\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\App.xaml
+>>>>>>> upstream/master
 11151548125
 
 17161754128
