@@ -48,7 +48,8 @@ namespace NewPatientMonitorTest
         [TestMethod]
         public void  AlarmDropsToZero() 
         {
-            
+            // Do we need to check whether the values drop to zero.
+
             Assert.IsFalse(alarmTesterCreated.ValueOutsideLimits (0f));
             Assert.IsFalse(alarmTesterCreated.ValueOutsideLimits(0f));
             Assert.IsFalse(alarmTesterCreated.ValueOutsideLimits(0f));
