@@ -47,6 +47,7 @@ namespace TestMethodPMS
             patientAlarmer.PulseRateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
             patientAlarmer.SystolicRateAlarm += (sender, e) => systolicAlarmWasCalled = true;
             patientAlarmer.TemperaturerateAlarm += (sender, e) => temperatureRateAlarmWasCalled = true;
+
             // ACT
 
 

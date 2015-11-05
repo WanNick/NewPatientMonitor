@@ -8,6 +8,10 @@ namespace NewPatientMonitor
 {
     public class PatientAlarmer
     {
-        
+        public event EventHandler BreathingRateAlarm;
+        public event EventHandler DiastolicRateAlarm;
+        public event EventHandler PulseRateAlarm;
+        public event EventHandler SystolicRateAlarm;
+        public event EventHandler TemperaturerateAlarm;
     }
 }
