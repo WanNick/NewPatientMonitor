@@ -30,5 +30,19 @@ namespace NewPatientMonitor
             UpperLimit = DefaultSettings.UPPER_DEFAULT_VALUE;
 
         }
+
+        public Module(string name)
+        {
+            Name = name;
+            LowerLimit = DefaultSettings.LOWER_DEFAULT_VALUE;
+            UpperLimit = DefaultSettings.UPPER_DEFAULT_VALUE;
+        }
+
+        public Module(string name, float lowerLimit, float upperLimit)
+        {
+            Name = name;
+            LowerLimit = lowerLimit;
+            UpperLimit = upperLimit;
+        }
     }
 }
