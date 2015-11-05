@@ -19,6 +19,8 @@ namespace NewPatientMonitorTest
             Assert.AreEqual(testModule.Name, NewPatientMonitor.DefaultSettings.NEW_MODULE_NAME);
             Assert.AreEqual(testModule.LowerLimit, NewPatientMonitor.DefaultSettings.LOWER_DEFAULT_VALUE);
             Assert.AreEqual(testModule.UpperLimit, NewPatientMonitor.DefaultSettings.UPPER_DEFAULT_VALUE);
+
+            // This is a test comment.
         }
 
         [TestMethod]
