@@ -41,9 +41,8 @@ namespace TestMethodPMS
             var systolicAlarmWasCalled = false;
             var temperatureRateAlarmWasCalled = false;
 
-
-
             // patientAlarmer.breathingrateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
+
 
             // ACT
 
