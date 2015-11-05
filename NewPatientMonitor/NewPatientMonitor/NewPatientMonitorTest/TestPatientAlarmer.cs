@@ -41,15 +41,27 @@ namespace TestMethodPMS
             var systolicAlarmWasCalled = false;
             var temperatureRateAlarmWasCalled = false;
 
-            // patientAlarmer.breathingrateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
+            patientAlarmer.BreathingRateAlarm += (sender, e) => breathingRateAlarmWasCalled = true;
+            patientAlarmer.DiastolicRateAlarm += (sender, e) => diastolicRateAlarmWasCalled = true;
+            patientAlarmer.PulseRateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
+            patientAlarmer.SystolicRateAlarm += (sender, e) => systolicAlarmWasCalled = true;
+            patientAlarmer.TemperaturerateAlarm += (sender, e) => temperatureRateAlarmWasCalled = true;
 
 
+
+
+            
             // ACT
 
 
             // ASSERT
 
 
+        }
+
+        private void PatientAlarmer_SystolicRateAlarm(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
