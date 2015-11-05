@@ -13,7 +13,5 @@ namespace NewPatientMonitor
         public event EventHandler PulseRateAlarm;
         public event EventHandler SystolicRateAlarm;
         public event EventHandler TemperaturerateAlarm;
-
-
     }
 }
