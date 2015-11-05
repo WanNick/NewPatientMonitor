@@ -21,6 +21,8 @@ namespace NewPatientMonitorTest
             Assert.AreEqual(testModule.UpperLimit, NewPatientMonitor.DefaultSettings.UPPER_DEFAULT_VALUE);
 
             // This is a test comment.
+
+            // Hello Nick
         }
 
         [TestMethod]
