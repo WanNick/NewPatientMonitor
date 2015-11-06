@@ -58,7 +58,7 @@ namespace NewPatientMonitorTest
         public void  AlarmDetectsNotZero() 
         {
             // This test should pass since the values setup is above 0. 
-            // The value is not zero
+            
 
             Assert.IsTrue(alarmTesterCreated.ValueOutsideLimits(0f));
 
