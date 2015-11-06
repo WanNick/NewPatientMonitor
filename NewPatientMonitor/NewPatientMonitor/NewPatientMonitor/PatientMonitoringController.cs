@@ -8,5 +8,6 @@ namespace NewPatientMonitor
 {
     class PatientMonitoringController
     {
+        
     }
 }

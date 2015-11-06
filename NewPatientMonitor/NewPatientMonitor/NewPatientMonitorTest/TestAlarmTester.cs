@@ -55,15 +55,14 @@ namespace NewPatientMonitorTest
         }
 
         [TestMethod]
-        public void  AlarmDropsToZero() 
+        public void  AlarmDetectsNotZero() 
         {
-            // This test should fail by default, since the values are greater than 0 (Both 12f and 54f are > 0)
+            // This test should pass since the values setup is above 0. 
+            // The value is not zero
 
             Assert.IsTrue(alarmTesterCreated.ValueOutsideLimits(0f));
 
-            //Assert.IsFalse(alarmTesterCreated.ValueOutsideLimits (0f));
-            //Assert.IsFalse(alarmTesterCreated.ValueOutsideLimits(0f));
-            //Assert.IsFalse(alarmTesterCreated.ValueOutsideLimits(0f));
+           
         }
 
 

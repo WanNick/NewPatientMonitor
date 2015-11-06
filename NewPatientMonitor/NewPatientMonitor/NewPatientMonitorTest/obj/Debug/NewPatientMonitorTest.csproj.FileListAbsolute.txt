@@ -43,3 +43,12 @@ C:\Users\nickw\Documents\GitHub\New\NewPatientMonitor\NewPatientMonitor\NewPatie
 C:\Users\nickw\Documents\GitHub\New\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.csprojResolveAssemblyReference.cache
 C:\Users\nickw\Documents\GitHub\New\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.dll
 C:\Users\nickw\Documents\GitHub\New\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.pdb
+F:\Documents\GitHub\New-Folder\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\NewPatientMonitorTest.dll
+F:\Documents\GitHub\New-Folder\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\NewPatientMonitorTest.pdb
+F:\Documents\GitHub\New-Folder\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\Moq.dll
+F:\Documents\GitHub\New-Folder\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\NewPatientMonitor.exe
+F:\Documents\GitHub\New-Folder\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\NewPatientMonitor.pdb
+F:\Documents\GitHub\New-Folder\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\bin\Debug\Moq.xml
+F:\Documents\GitHub\New-Folder\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.csprojResolveAssemblyReference.cache
+F:\Documents\GitHub\New-Folder\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.dll
+F:\Documents\GitHub\New-Folder\NewPatientMonitor\NewPatientMonitor\NewPatientMonitor\NewPatientMonitorTest\obj\Debug\NewPatientMonitorTest.pdb

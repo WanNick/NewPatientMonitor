@@ -24,9 +24,15 @@ namespace TestMethodPMS
             // ARRANGE
 
             var patientData = new Mock<IPatientData>();
-
-            // This uses the Lambda expresssions (=>)
             // From the left we have our arguments, the result however is on the right.
+
+            /*
+            At the moment this test is testing whether any of the modules are called.
+            It's searching through the values below to see whether its higher or lower than the default value
+            If the values below are in between the test should pass
+            If any of the values listed below is out of the defualt limit, it should fail
+            */
+
             patientData.Setup(a => a.BreathingRate).Returns (15f);
             patientData.Setup(b => b.DiastolicRate).Returns(74f);
             patientData.Setup(c => c.PulseRate).Returns(60f);
@@ -40,20 +46,29 @@ namespace TestMethodPMS
             var pulseRateAlarmWasCalled = false;
             var systolicAlarmWasCalled = false;
             var temperatureRateAlarmWasCalled = false;
-
           
             patientAlarmer.BreathingRateAlarm += (sender, e) => breathingRateAlarmWasCalled = true;
             patientAlarmer.DiastolicRateAlarm += (sender, e) => diastolicRateAlarmWasCalled = true;
             patientAlarmer.PulseRateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
             patientAlarmer.SystolicRateAlarm += (sender, e) => systolicAlarmWasCalled = true;
             patientAlarmer.TemperaturerateAlarm += (sender, e) => temperatureRateAlarmWasCalled = true;
-
-            // ACT
-
-
-
             // ASSERT
+            Assert.IsFalse(breathingRateAlarmWasCalled);
+            Assert.IsFalse(diastolicRateAlarmWasCalled);
+            Assert.IsFalse(pulseRateAlarmWasCalled);
+            Assert.IsFalse(systolicAlarmWasCalled);
+            Assert.IsFalse(temperatureRateAlarmWasCalled);
 
+        }
+        [TestMethod]
+        public void PulseRateWasCalled()
+        {
+            var patientData = new Mock<IPatientData>();
+            patientData.Setup(a => a.PulseRate).Returns(60f);
+            var pulseRateAlarmWasCalled = false;
+            patientAlarmer.PulseRateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
+            patientAlarmer.ReadingTest(patientData.Object);
+            Assert.IsTrue(pulseRateAlarmWasCalled);
 
         }
     }

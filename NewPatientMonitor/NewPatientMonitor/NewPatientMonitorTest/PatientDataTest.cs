@@ -9,7 +9,7 @@ namespace NewPatientMonitorTest
         [TestMethod]
         public void TestMethod1()
         {
-
+            
         }
     }
 }
