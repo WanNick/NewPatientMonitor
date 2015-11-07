@@ -8,12 +8,13 @@ namespace NewPatientMonitor
 {
     public class PatientAlarmer
     {
-        
+
         public event EventHandler BreathingRateAlarm;
         public event EventHandler DiastolicRateAlarm;
         public event EventHandler PulseRateAlarm;
         public event EventHandler SystolicRateAlarm;
         public event EventHandler TemperaturerateAlarm;
+
 
         /*
         The code below tells the compiler where to get the values from. In this case it obtains
@@ -59,6 +60,7 @@ namespace NewPatientMonitor
                 if (TemperaturerateAlarm != null) TemperaturerateAlarm(this, null);
             }
         }
+
 
     }
 }

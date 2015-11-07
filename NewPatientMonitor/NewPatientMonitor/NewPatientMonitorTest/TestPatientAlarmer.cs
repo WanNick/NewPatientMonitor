@@ -115,8 +115,10 @@ namespace TestMethodPMS
             patientAlarmer.TemperaturerateAlarm += (sender, e) => temperatureRateAlarmWasCalled = true;
             patientAlarmer.ReadingTest(patientData.Object);
             Assert.IsTrue(temperatureRateAlarmWasCalled);
+
         }
 
+      
 
 
     }

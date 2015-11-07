@@ -15,7 +15,7 @@ namespace NewPatientMonitorTest
         public void setup()
         {
              alarmTesterCreated = new AlarmTester("Module Name", 12f, 54f);
-            // alarmTesterCreated = new AlarmTester("Module Name", 0f, 0f);
+             // alarmTesterCreated = new AlarmTester("Module Name", 0f, 0f);
         }
 
         // ASSERT
