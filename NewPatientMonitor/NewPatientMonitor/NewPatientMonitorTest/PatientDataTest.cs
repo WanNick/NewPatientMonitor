@@ -6,10 +6,6 @@ namespace NewPatientMonitorTest
     [TestClass]
     public class PatientDataTest
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-            
-        }
+       
     }
 }

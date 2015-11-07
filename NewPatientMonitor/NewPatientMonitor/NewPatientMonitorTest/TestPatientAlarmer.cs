@@ -33,7 +33,7 @@ namespace TestMethodPMS
             If any of the values listed below is out of the defualt limit, it should fail
             */
 
-            patientData.Setup(a => a.BreathingRate).Returns (15f);
+            patientData.Setup(a => a.BreathingRate).Returns (13f);
             patientData.Setup(b => b.DiastolicRate).Returns(74f);
             patientData.Setup(c => c.PulseRate).Returns(60f);
             patientData.Setup(d => d.SystolicRate).Returns(125f);
@@ -52,7 +52,9 @@ namespace TestMethodPMS
             patientAlarmer.PulseRateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
             patientAlarmer.SystolicRateAlarm += (sender, e) => systolicAlarmWasCalled = true;
             patientAlarmer.TemperaturerateAlarm += (sender, e) => temperatureRateAlarmWasCalled = true;
+            patientAlarmer.ReadingTest(patientData.Object); 
             // ASSERT
+
             Assert.IsFalse(breathingRateAlarmWasCalled);
             Assert.IsFalse(diastolicRateAlarmWasCalled);
             Assert.IsFalse(pulseRateAlarmWasCalled);
@@ -61,15 +63,61 @@ namespace TestMethodPMS
 
         }
         [TestMethod]
+        public void BreathingRateWasCalled()
+        {
+            var patientData = new Mock<IPatientData>();
+            patientData.Setup(a => a.BreathingRate).Returns(9f);
+            var breathingRateAlarmWasCalled = false;
+            patientAlarmer.BreathingRateAlarm += (sender, e) => breathingRateAlarmWasCalled = true;
+            patientAlarmer.ReadingTest(patientData.Object);
+            Assert.IsTrue(breathingRateAlarmWasCalled);
+        }
+
+        [TestMethod]
+        public void DiastolicPressureRateWasCalled()
+        {
+            var patientData = new Mock<IPatientData>();
+            patientData.Setup(a => a.DiastolicRate).Returns(9f);
+            var diastolicRateAlarmWasCalled = false;
+            patientAlarmer.DiastolicRateAlarm += (sender, e) => diastolicRateAlarmWasCalled = true;
+            patientAlarmer.ReadingTest(patientData.Object);
+            Assert.IsTrue(diastolicRateAlarmWasCalled);
+        }
+
+        [TestMethod]
         public void PulseRateWasCalled()
         {
             var patientData = new Mock<IPatientData>();
-            patientData.Setup(a => a.PulseRate).Returns(60f);
+            patientData.Setup(a => a.PulseRate).Returns(45f);
             var pulseRateAlarmWasCalled = false;
             patientAlarmer.PulseRateAlarm += (sender, e) => pulseRateAlarmWasCalled = true;
             patientAlarmer.ReadingTest(patientData.Object);
             Assert.IsTrue(pulseRateAlarmWasCalled);
-
         }
+
+        [TestMethod]
+        public void SystolicPressureRateWasCalled()
+        {
+            var patientData = new Mock<IPatientData>();
+            patientData.Setup(a => a.SystolicRate).Returns(100f);
+            var systolicRateAlarmWasCalled = false;
+            patientAlarmer.SystolicRateAlarm += (sender, e) => systolicRateAlarmWasCalled = true;
+            patientAlarmer.ReadingTest(patientData.Object);
+            Assert.IsTrue(systolicRateAlarmWasCalled);
+        }
+
+        [TestMethod]
+        public void TemperatureRateWasCalled()
+        {
+            var patientData = new Mock<IPatientData>();
+            patientData.Setup(a => a.TemperatureRate).Returns(34f);
+            var temperatureRateAlarmWasCalled = false;
+            patientAlarmer.TemperaturerateAlarm += (sender, e) => temperatureRateAlarmWasCalled = true;
+            patientAlarmer.ReadingTest(patientData.Object);
+            Assert.IsTrue(temperatureRateAlarmWasCalled);
+        }
+
+
+
     }
 }

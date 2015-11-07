@@ -17,7 +17,9 @@ namespace NewPatientMonitor
 
         /*
         The code below tells the compiler where to get the values from. In this case it obtains
-        the values within the default settings. I have specified in this sequence:
+        the values within the default settings. 
+        
+        I have specified in this sequence:
 
         Module Name , Lower Breathing Rate (Default Settings), Upper Breathing Rate (Default Settings)
         */
@@ -39,6 +41,22 @@ namespace NewPatientMonitor
             if (breathingTester.ValueOutsideLimits (reading.BreathingRate))
             {
                 if (BreathingRateAlarm != null) BreathingRateAlarm(this, null); 
+            }
+            if (diastolicTester.ValueOutsideLimits (reading.DiastolicRate))
+            {
+                if (DiastolicRateAlarm != null) DiastolicRateAlarm(this, null);
+            }
+            if (pulseTester.ValueOutsideLimits (reading.PulseRate))
+            {
+                if (PulseRateAlarm != null) PulseRateAlarm(this, null);
+            }
+            if (systolicTester.ValueOutsideLimits (reading.SystolicRate))
+            {
+                if (SystolicRateAlarm != null) SystolicRateAlarm(this, null);
+            }
+            if (temperatureTester.ValueOutsideLimits (reading.TemperatureRate))
+            {
+                if (TemperaturerateAlarm != null) TemperaturerateAlarm(this, null);
             }
         }
 
